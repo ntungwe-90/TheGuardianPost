@@ -1,0 +1,902 @@
+*{
+  font-family: 'GuardianTextSans', "Guardian Text Sans Web", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.head{
+display: flex;
+justify-content:space-between;
+ 
+ color: #fff;
+
+} 
+h1{
+ color:  rgb(255, 229, 0);
+ font-family: "GH Guardian Headline", "Guardian Egyptian Web", Georgia, serif;
+     font-size: 1.25rem; 
+    line-height: 1.15; 
+    font-weight: 700; 
+     margin-bottom: 3px; 
+
+ } 
+ .sub-title{
+  color: rgb(255, 255, 255);
+    font-family: 'GuardianTextSans', "Guardian Text Sans Web", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 1.0625rem;
+     line-height: 1.5; 
+   
+    font-weight: 400;
+    margin: 5px 0px;
+
+} 
+
+ .butt{
+  display: inline-flex;
+   
+    align-items: center;
+    box-sizing: border-box;
+    border: none;
+    background: rgb(255, 229, 0);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    text-decoration: none;
+    white-space: nowrap;
+    color: rgb(5, 41, 98);
+    height: 32px;
+    min-height: 32px;
+    font-family: 'GuardianTextSans', "Guardian Text Sans Web", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    border-radius: 16px;
+    padding: 0px 12px;
+    line-height: 18px;
+    margin-right: 10px;
+  
+
+} 
+
+.headitems{
+  display:flex;
+justify-content: space-evenly; 
+ gap:15px;
+color: #fff;
+font-size: 14px;
+margin-top: 0.5rem;
+
+}
+
+
+
+.new-header{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.pillars  li :hover{
+  border-top: 5px solid#df1aae;
+  cursor: pointer;
+  color: #fff;
+}
+
+.pillars__item li a:hover{
+  border-top: 5px solid#1adfcf; 
+}
+
+
+.pillar-link.pillar-link--News:after {
+  border-color: #ff4e36;
+ 
+}
+.pillars  {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+  gap: 50px;
+  border: none;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  
+  margin-top: -55px;
+}
+
+
+
+ul li a {
+  color: #fff;
+  border: none;
+  list-style-type: none;
+  text-decoration: none;
+ margin-left: 1rem;
+ font-size: 1.5rem;
+ padding-left: 1.25;
+
+  left: 0.0625rem;
+  
+  right: 0;
+  top: -0.25rem;
+
+}
+
+
+.pillars__item{
+  columns: #fff;
+}
+
+.ul li a:hover{
+  color: #ff4e36;
+}
+
+.pic{
+  width: 100%;
+  height: 65%;
+ 
+}
+
+.russia{
+  font-family: system-ui, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: #121212;
+    line-height: 30px;
+   
+    
+}
+
+.after{
+  width: 100%;
+  height: 2px;
+  border: 1rem solid red;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.anchortags{
+  display: flex;
+  gap:3px
+  /* justify-content: space-between; */
+  
+}
+.anchortags a {
+  border: none;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'GuardianTextSans', "Guardian Text Sans Web";
+  /* padding:  0px 4px; */
+  color: #121212;
+}
+
+.anchortags a:hover{
+  color: #ff4e36;
+}
+
+.anchortag a {
+  border: none;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'GuardianTextSans', "Guardian Text Sans Web";
+  /* padding:  0px 4px; */
+  color: #fff;
+}
+.edition{
+margin-Right:2.5rem; 
+margin-Left:-7rem 
+}
+.g_icon{
+  margin-left: -3rem; ;
+  
+}
+
+.anchortag a:hover{
+  color: pink;
+}
+
+.lines{
+ display: block;
+ gap:-15px;
+ margin-bottom: -13px;
+  
+}
+
+
+.spanart{
+  color: #8B0000;
+   font-Weight: bold;
+    font-Size: 1.25rem
+}
+
+.all_cardtexts{
+  
+   color: #121212;
+    font-Size: 1.5rem;
+    
+    text-align: left;
+     line-Height: 1.5rem;
+      font-family: 'GuardianTextSans', "Guardian Text Sans Web";
+      margin-bottom: 2rem;
+      
+}
+
+
+
+/* Sportligt styling */
+.flexbox{
+border-top: 1px solid red;
+  height: 5.25rem;
+  width: 31rem;
+  background-color: #FFFFFF;
+  
+}
+
+
+
+  .card1 p {
+ width: 250px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgb(85, 52, 52);
+    max-width: 30ch;
+    line-height: 22px;
+    padding-bottom: 15px;
+    background: #FFFFFF;
+   /* text-align: center; */
+    margin:0;
+   font-family: 'GuardianTextSans', "Guardian Text Sans Web";
+  }
+  .small{
+    max-width: 20ch;
+    font-size: 1rem;
+     
+    margin-bottom: 30px;
+  }
+.container-mg{
+  margin-left: 4rem;
+  
+}
+
+.mts{
+  height: 60%;
+  width: 40%;
+  margin-top: -16px;
+  margin-left: -15px;
+  margin-bottom: 5px;
+}
+
+.pictures{
+  height: 50%;
+  width:30%;
+}
+ .textch{
+  max-width: 50ch; 
+  margin-top: -48px;
+  font-size: 1rem;
+  
+  font-family: 'GuardianTextSans', "Guardian Text Sans Web";
+  
+ } 
+
+ .margint{
+  background: #FFFFFF;
+   /* margin-bottom: -15px; */
+   margin-top: -2rem;
+   border-top: 1px solid red;
+ }
+
+ .pics{
+   width: 120%;
+   font-size: 1.5rem;
+   line-height: 25px;
+
+
+ }
+ .sport_highlight{
+   margin-top: 2px solid red;
+   background-color: rgb(226, 225, 225);
+ }
+
+ 
+
+
+ /* OPINION */
+
+.margin_type{
+  margin-bottom: -2.25rem;
+  
+}
+.mtop{
+  border-top: 0.5px solid lightgrey;
+}
+ .opinionContainer{
+   margin-top: -4rem;
+ }
+
+ .opinion_text{
+   margin-top: -1.5rem;
+   font-weight: 400;
+  
+   
+ }
+
+ .lifestyle_text{
+  margin-top: -1.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+ 
+  
+}
+.box{
+  height: 76%;
+  width: 200%;
+  background-color: rgb(226, 225, 225);
+  border-top: 1px solid lightgrey;
+  margin-left: 2rem;
+}
+
+.box2{
+  height: 70%;
+  width: 150%;
+  background-color: rgb(226, 225, 225);
+  border-top: 1px solid lightgrey;
+  margin-left: 2rem;
+  margin-top: -2rem;
+}
+
+.box3{
+  height: 70%;
+  width: 155%;
+  background-color: rgb(226, 225, 225);
+  border-top: 1px solid lightgrey;
+  margin-left: .25rem;
+}
+
+.btn{
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+ 
+.sport_highlights{
+border-top: 2px solid dodgerblue;
+background-color:rgb(250, 248, 248) ;
+
+}
+.sport_highlights p{
+  font-size: 1.2rem;
+}
+
+.spots{
+  color: dodgerblue;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.25rem ;
+    
+    font-family: 'GuardianTextSans', "Guardian Text Sans Web";
+
+}
+
+.sports{
+  font-size: 2rem;
+  line-height: 30px;
+  color: dodgerblue;
+  font-weight: 450;
+}
+.namecolor{
+  font-size: 2rem;
+  color: rgb(55, 93, 131);
+
+}
+
+.btn_black {
+  background-color: #121212;
+  border-radius: 20px;
+}
+
+.btn_black2 {
+  background-color: #121212;
+  border-radius: 20px;
+  width: 18%;
+  margin-left: 50px;
+}
+
+
+
+.sports_text{
+  font-size: 1.2rem;
+  line-height: 25px;
+  font-weight: bold;
+  margin-bottom: 6rem;
+  background:"lightgrey" 
+}
+
+
+.container-flex{
+  display: flex;
+  gap: 0px;
+  margin-bottom: rem;
+  /* background-color: #121212; */
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+
+}
+
+.text-logo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.aya{
+  font-size: 3rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-family:'GuardianTextSans', "Guardian Text Sans Web" ;
+  font-weight: 300;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.text-ch{
+  max-width: 40ch;
+  margin-left: 12rem;
+  color: #fff;
+  margin-top: 3rem;
+  border-top: 2px solid grey;
+  font-size: large;
+}
+
+.bton{
+  display: flex;
+  width: 50px;
+  margin-left: 16rem;
+  border-radius: 30px;
+}
+.bton2{
+  margin-left: 20rem;
+  margin-top: -2rem;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.cards_text{
+  width:50%; 
+  background-Color:black;
+  margin-Left:-.7rem;
+  background-color: #121212;
+ 
+}
+
+.cards_img{
+  width:45%;
+   height:80%;
+  margin-right: -1rem;
+  /* background-color: #121212; */
+
+}
+/* CLIMATE CRISIS */
+.gallery_cards{
+/* display: flex; */
+gap:5px;
+width: 65%;
+height: 100%;
+background-color: #FFFFFF;
+}
+
+.red-colortext{
+  color: #e63434;
+  font-size: 1rem;
+  font-family:'GuardianTextSans', "Guardian Text Sans Web" ;
+}
+
+.maintexts{
+  max-width: 28ch;
+}
+
+.box2{
+  height: 325px;
+  width: 350px;
+  margin-left: -4.5rem;
+  background-color:'rgb(226, 225, 225)';
+}
+
+.starcard{
+  margin-right: -5rem;
+}
+.span_color{
+  color: #8B0000;
+   font-Weight: '700';
+    font-Size: 2rem
+}
+
+.card_height{
+  height: 3rem;
+  width: 50%;
+  background-color: 'rgb(226, 225, 225)';
+}
+
+.text-danger1{
+  color: #8B0000;
+   font-Weight: bold;
+    font-Size: 1.25rem
+}
+
+.text_box{
+ width: 130%;
+ height:31%;
+ background-color:rgb(226, 225, 225);
+ border-top: 1px solid rgb(156, 59, 59);
+  margin-top: -6px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.news_header{
+  display: flex;
+  justify-content: space-between;
+  background: #ffe500;
+  color: #121212; 
+  margin: 0;
+  font-family: "Guardian Text Egyptian";
+    width: 100%;
+   
+}
+
+.share_stories{
+  font-size: 32px;
+    line-height: 34px;
+    /* margin-left: 200px; */
+    font-weight: 300;
+  /* font-size: 32px;
+  text-align: center;
+  margin-left: 90px; */
+}
+
+a:hover{
+  border-bottom: 1px solid black;
+  color: #121212;
+}
+/* .icon{
+  background-color: #fff;
+  margin-left: 5px;
+} */
+
+a{
+  outline: 0;
+  border: none;
+  color: #121212; 
+ text-decoration: none;
+ 
+
+}
+.tip_link{
+  font-family: "Guardian Headline Full", Georgia, 'Times New Roman', Times, serif;
+  /* font-size: 2rem; */
+ font-size: 24px;
+ font-weight: 700;
+
+}
+/* culture */
+.text-height{
+  height: 130px;
+  background-color: #FFFFFF;
+  width: 118.7%;
+}
+.text-height p{
+  font-size: 2rem;
+  line-height: 35px;
+  font-weight: 400;
+  /* color: #7c1c64; */
+  font-size: 1.68rem;
+  max-width: 54ch;
+
+}
+
+.text{
+  font-size: 2rem;
+  line-height: 35px;
+  font-weight: 400;
+  color: #6b5840;
+  font-size: 1.68rem;
+  max-width: 54ch;
+}
+
+.text3{
+  font-size: 2rem;
+  line-height: 35px;
+  font-weight: 600;
+  color: #7c1c64;
+  font-size: 1.68rem;
+  max-width: 54ch;
+
+}
+.text3 span{
+  color:#800e63;
+  font-weight: 800;
+  font-size: 1.5rem;
+  font-family: "Guardian Text Egyptian Web", Georgia, 'Times New Roman', Times, serif ;
+}
+.text span{
+  color:#A1845c;
+  font-weight: 800;
+  font-size: 1.5rem;
+  font-family: "Guardian Text Egyptian Web", Georgia, 'Times New Roman', Times, serif ;
+}
+
+.main_culture{
+  margin-bottom: 50px;
+}
+
+.span_texts{
+  color:#A1845c;
+  font-weight: 800;
+  font-size: 1.5rem;
+  
+  font-family: "Guardian Text Egyptian Web", Georgia, 'Times New Roman', Times, serif ;
+}
+
+.smaller{
+  max-width: 22ch;
+  font-size: 15px;
+   font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.culture_highlights{
+  border-top: 1px solid #6b5840;
+  background-color: rgb(250, 248, 248);
+  
+}
+
+.lifestyle_highlights{
+  border-top: 2px solid #7c1c64;
+  background-color: rgb(226, 225, 225);
+}
+
+.lifestyle_highlights p{
+  font-size: 1rem;
+  color: #352d2d;
+}
+
+.advert{
+  margin-top: -40px;
+}
+
+.smallest{
+margin-top: 85px;
+}
+.smalles{
+  margin-top: 100px;
+}
+
+
+/* lifestyle */
+.black_card{
+  height: 237px;
+  width: 36.5%;
+  margin-left: 1.7rem;
+  background-color: #352d2d;
+  
+  
+  border-left:1px solid grey;
+}
+
+.span_card{
+  color:#be5ba6;
+  font-weight: 800;
+  font-size: 1.5rem;
+  font-family: "Guardian Text Egyptian Web", Georgia, 'Times New Roman', Times, serif ;
+}
+
+.text2{
+  font-size: 2rem;
+  line-height: 25px;
+  font-weight: 400;
+  color: white;
+  font-size: 1.4rem;
+  max-width: 40ch;
+}
+
+.queen{
+  color: #fff;
+  margin-top: 2rem;
+  max-width: 20ch;
+  font-size: 1rem;
+   
+  
+}
+
+.queen_links{
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 10px;
+  font-size: 17px;
+  color: #fff
+}
+
+.queen_links a{
+color: #fff;
+font-size: 17px;
+}
+
+.spantext{
+  color:#b40588;
+  font-weight: 1800;
+  font-size: 22px;
+  font-family: "Guardian Text Egyptian Web", Georgia, 'Times New Roman', Times, serif ;
+}
+
+.pedicure{
+  font-weight: 350;
+  color: #700656;
+  font-size: 1.5rem;
+}
+
+.smaller2{
+  max-width: 22ch;
+  font-size: 16px;
+   font-weight: 400;
+   margin-top: 5rem;
+   line-height: 20px;
+  /* margin-bottom: 20px; */
+}
+.smaller3{
+  max-width: 22ch;
+  font-size: 16px;
+   font-weight: 400;
+   margin-top: 6rem;
+   line-height: 20px;
+  /* margin-bottom: 20px; */
+}
+
+.blachgirl{
+  max-width: 22ch;
+  font-size: 14px;
+   font-weight: 400;
+   margin-top: -30px;
+   /* margin-top: 6rem; */
+   line-height: 20px;
+}
+
+.black_background{
+  height: 500px;
+  width: 100%;
+  background-color:#121212
+}
+
+.video_text{
+  color: #fff;
+  text-align: start;
+ font-size: 20px;
+  cursor: pointer;
+  
+}
+.container2 {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  background-color: black;
+  color: white;
+ /* margin-right: 12rem; */
+  padding-left: 35px;
+  padding-right: 35px;
+
+}
+.text-block p{
+  max-width: 15ch;
+  font-size: 20px;
+  font-family:"Guardian Text Egyptian Web", Georgia, 'Times New Roman', Times, serif ;
+}
+
+.card_styles{
+  margin-left: 7rem;
+}
+.numbers{
+  font-size: 3rem;
+  margin-bottom: -50px;
+  font-weight: 600;
+}
+.table_text{
+ font-size: 20px;
+ max-width: 30ch;
+padding-bottom: -3rem;
+ line-height: 20px;
+ font-weight: 400;
+ font-family:"Guardian Text Egyptian Web", Georgia, 'Times New Roman', Times, serif ;
+}
+
+.table_text:hover{
+  background-color: rgb(243, 240, 240);
+}
+td tr span:hover{
+  background-color: rgb(243, 240, 240);
+}
+
+
+.bottom_links{
+  display: flex;
+  /* justify-content: space-between; */
+  gap: px;
+  font-size: small;
+  margin-top: -5px;
+}
+ul{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.bottom_links ul a{
+  text-decoration: none;
+  outline: 0;
+  border: none;
+  color: #121212; 
+ font-size: 10px;
+ margin-top: none;
+ border: none;
+  list-style-type: none;
+}
+
+.linktags{
+  font-size: 15px;
+  color: #121212;
+  border-top: none;
+  border: none;
+  list-style-type: none;
+}
+
+/* FOOTER STYLING */
+.footer_body{
+  max-width: 200%;
+  height: 500px;
+ 
+}
+
+.footer_nav{
+  display: flex;
+  justify-content:left;
+  gap: 15px;
+  font-size: 1.5rem;
+  font-family: 'GuardianTextSans', "Guardian Text Sans Web";
+  border-bottom: 1px solid white;
+}
+
+
+li{
+  text-decoration: none;
+  list-style: none;
+  border-top: #be5ba6;
+  color: #fff;
+  font-weight: 600;
+}
+ .footer_nav  li :hover{
+  border-top: 5px solid#be5ba6;
+  cursor: pointer;
+  color: none;
+}
+
+.ftext{
+  text-align: center;
+ /* margin-top: -70px; */
+  /* font-size: 15px; */
+}
+
+.footer_items li a{
+border: none;
+font-weight: 400;
+
+}
+
+.really-serious-copyright {
+  padding-top: 0.375rem;
+}
+.really-serious-copyright {
+  color: #fff;
+  font-size: 0.60rem;
+  /* padding-top: 1.5rem; */
+}
