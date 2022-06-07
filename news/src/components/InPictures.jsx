@@ -26,14 +26,7 @@ function InPictures() {
                             shows's succes, say experts, but some fear there's dark
                             side to the compulsion
                         </p>
-
-
-
-
-
                     </p>
-
-
 
                 </div>
 
@@ -169,117 +162,105 @@ function InPictures() {
                         <div className="col-md-7 border">
                             <h3>Most Viewed</h3>
                             <table class="table table-bordered">
-  <thead>
-    <tr>
-      
-      
-      <th scope="col">Most Viewed</th>
-      <th scope="col">Across the Guardian</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-     <div className='d-flex justify-contenet-between  gap-3'>
-     <span className='numbers'>1</span>
-      <td className='table_text'>Ukraine forces ‘recapture 20% of territory lost in Sievierodonetsk’ – as it happened</td>
-      </div>
-      
-      <td className='table_text'><span className='numbers'>6</span>As war drags on, Ukrainians start to ask: could we have prepared better?</td>
-     
-      
-    </tr>
-    <tr>
-        <div className='d-flex justify-contenet-between  gap-3'>
-       < span className='numbers'>2</span>
-    <td className='table_text'>‘Disgusting’ behaviour at Canadian police undercover training course sparks inquiry</td>
-    </div>
-      <td className='table_text'><span className='numbers'>7</span>Russian troops pound Donbas as Ukraine war enters 100th day</td>
-     
-    </tr>
-    <tr>
-        <div className="d-flex  justify-contenet-between  gap-3">
-    <span className='numbers'>3</span>
-    <td className='table_text'>What happened in the Russia-Ukraine war this week? Catch up with the must-read news and analysis</td></div>
-      <td className='table_text'><span className='numbers'>8</span>Omicron subvariant drives spike in cases and deaths in Portugal</td>
-      
-    </tr>
+                                <thead>
+                                    <tr>
 
-    <tr>
-    <div className="d-flex  justify-contenet-between  gap-3">
-    <span className='numbers'>4</span>
-<td className='table_text'>Russia says Tory MP’s son involved in killing Chechen commander in Ukraine</td></div>
-<td className='table_text'><span className='numbers'>9</span>What does the Heard-Depp verdict mean for the #MeToo movement?</td>
-    </tr>
 
-    <tr>
-    <div className="d-flex  justify-contenet-between  gap-3">
-    <span className='numbers'> 5</span>
-        <td className='table_text'>Russia-Ukraine war: what we know on day 100 of the invasion</td></div>
-        <td className='table_text pd-5'><span className='numbers'>10</span>Estonia’s PM calls for new government talks as coalition collapses</td>
-    </tr>
-  </tbody>
-</table>
+                                        <th scope="col">Most Viewed</th>
+                                        <th scope="col">Across the Guardian</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <div className='d-flex justify-contenet-between  gap-3'>
+                                            <span className='numbers'>1</span>
+                                            <td className='table_text'>Ukraine forces ‘recapture 20% of territory lost in Sievierodonetsk’ – as it happened</td>
+                                        </div>
+
+                                        <td className='table_text'><span className='numbers'>6</span>As war drags on, Ukrainians start to ask: could we have prepared better?</td>
+
+
+                                    </tr>
+                                    <tr>
+                                        <div className='d-flex justify-contenet-between  gap-3'>
+                                            < span className='numbers'>2</span>
+                                            <td className='table_text'>‘Disgusting’ behaviour at Canadian police undercover training course sparks inquiry</td>
+                                        </div>
+                                        <td className='table_text'><span className='numbers'>7</span>Russian troops pound Donbas as Ukraine war enters 100th day</td>
+
+                                    </tr>
+                                    <tr>
+                                        <div className="d-flex  justify-contenet-between  gap-3">
+                                            <span className='numbers'>3</span>
+                                            <td className='table_text'>What happened in the Russia-Ukraine war this week? Catch up with the must-read news and analysis</td></div>
+                                        <td className='table_text'><span className='numbers'>8</span>Omicron subvariant drives spike in cases and deaths in Portugal</td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <div className="d-flex  justify-contenet-between  gap-3">
+                                            <span className='numbers'>4</span>
+                                            <td className='table_text'>Russia says Tory MP’s son involved in killing Chechen commander in Ukraine</td></div>
+                                        <td className='table_text'><span className='numbers'>9</span>What does the Heard-Depp verdict mean for the #MeToo movement?</td>
+                                    </tr>
+
+                                    <tr>
+                                        <div className="d-flex  justify-contenet-between  gap-3">
+                                            <span className='numbers'> 5</span>
+                                            <td className='table_text'>Russia-Ukraine war: what we know on day 100 of the invasion</td></div>
+                                        <td className='table_text pd-5'><span className='numbers'>10</span>Estonia’s PM calls for new government talks as coalition collapses</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
 
 
-                       
-                                      
-
-                                  
-
-                                   
-
-                       
-                       
-
-
-                        
                         <div className="col-md-2">
-                        <p>.</p>
+                            <p>.</p>
                             <p className='box3'>Advertisement</p>
                         </div>
-                        </div>
-                   
+                    </div>
+
                 </div>
 
                 <div className='lines mb-3 bt-0 bb-0' >
-                            <hr className='lines'></hr> <hr className='lines'></hr> < hr className='lines'></hr>
-                           
-                            </div>
-                            <small>Topics</small>
-<ul className='bottom_links'>
-<li><a className='linktags'>All today's stories</a></li>
-<li><a className='linktags'>Europe</a></li>
-<li><a className='linktags'>Ukrain</a></li>
-<li><a className='linktags'>Russia</a></li>
-<li><a className='linktags'>Monarchy</a></li>
-<li><a className='linktags'>Queen's platinium Jubilee</a></li>
-</ul>
-   <hr/>   
+                    <hr className='lines'></hr> <hr className='lines'></hr> < hr className='lines'></hr>
 
-    <div>
-                            <ul className='anchortags '>
-                              <li> <a className='refs' href='/'>World</a></li> 
-                               <li> <a className='refs' href='/'>UK</a></li>
-                               <li> <a className='refs' href='/'>Coronavirus</a></li>
-                               <li> <a className='refs' href='/'>Climate crisis</a></li>
-                               <li><a className='refs' href='/'>Environtment</a></li> 
-                               <li><a className='refs' href='/'>Science</a></li> 
-                               <li> <a className='refs' href='/'>Global development</a></li> 
-                                <li><a className='refs' href='/'>Footbal</a></li>
-                                <li><a className='refs' href='/'>Tech</a></li>
-                               <li><a className='refs' href='/'>Business</a></li> 
+                </div>
+                <small>Topics</small>
+                <ul className='bottom_links'>
+                    <li><a className='linktags'>All today's stories</a></li>
+                    <li><a className='linktags'>Europe</a></li>
+                    <li><a className='linktags'>Ukrain</a></li>
+                    <li><a className='linktags'>Russia</a></li>
+                    <li><a className='linktags'>Monarchy</a></li>
+                    <li><a className='linktags'>Queen's platinium Jubilee</a></li>
+                </ul>
+                <hr />
 
-
+                <div>
+                    <ul className='anchortags '>
+                        <li> <a className='refs' href='/'>World</a></li>
+                        <li> <a className='refs' href='/'>UK</a></li>
+                        <li> <a className='refs' href='/'>Coronavirus</a></li>
+                        <li> <a className='refs' href='/'>Climate crisis</a></li>
+                        <li><a className='refs' href='/'>Environtment</a></li>
+                        <li><a className='refs' href='/'>Science</a></li>
+                        <li> <a className='refs' href='/'>Global development</a></li>
+                        <li><a className='refs' href='/'>Footbal</a></li>
+                        <li><a className='refs' href='/'>Tech</a></li>
+                        <li><a className='refs' href='/'>Business</a></li>
 
 
 
-                            </ul>
-                        </div>   
 
-                                          
+
+                    </ul>
+                </div>
+
+
             </div>
-           
+
         </div>
     );
 }

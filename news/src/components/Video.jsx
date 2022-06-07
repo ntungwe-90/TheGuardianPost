@@ -1,7 +1,7 @@
 import React from 'react';
 import Image1 from "../images/liza.png"
 import Image2 from "../images/amber.jpeg"
-// color:"#00b2ff"
+
 function video() {
     return (
 

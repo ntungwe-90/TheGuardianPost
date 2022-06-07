@@ -73,16 +73,7 @@ function TakePart() {
 
 
                     </p>
-
-
-
                 </div>
-
-
-
-
-
-
             </div>
         </div>
     );

@@ -12,7 +12,7 @@ function ClimateCrisis() {
                 </div>
                 <div className="col-md-8 ">
                     <div className='d-flex justify-contenet-between align-items-center '>
-                        <div className='card mt-0' style={{ height: "20.5rem", backgroundColor:"rgb(226, 225, 225)" , width: "15.25rem" }}>
+                        <div className='card mt-0' style={{ height: "20.5rem", backgroundColor: "rgb(226, 225, 225)", width: "15.25rem" }}>
                             <img src={Image1} style={{ width: '100%', height: '60%' }} alt="post" />
                             <p className='maintexts'> <small className='red-colortext'>Carbon Capture /</small>
                                 Greenhouse gas removal ‘not a silver bullet to achieve net zero’</p>
@@ -21,7 +21,7 @@ function ClimateCrisis() {
 
 
                         <div className='gap-1 ms-3 mt-2'>
-                            <p style={{ borderTop: '0.1rem solid #8B0000', marginTop: "5px", width: '80%', fontWeight: 'bold', fontSize: '1.25rem', lineHeight: '1.5rem', backgroundColor:"rgb(226, 225, 225)"  }}> <span style={{ color: '#8B0000', fontWeight: 'bold', fontSize: '1.25rem' }}>FULL-REPORT/</span> Ukraine <br />
+                            <p style={{ borderTop: '0.1rem solid #8B0000', marginTop: "5px", width: '80%', fontWeight: 'bold', fontSize: '1.25rem', lineHeight: '1.5rem', backgroundColor: "rgb(226, 225, 225)" }}> <span style={{ color: '#8B0000', fontWeight: 'bold', fontSize: '1.25rem' }}>FULL-REPORT/</span> Ukraine <br />
                                 has won the battle of Kharkiv,
                                 ‘long phase of war’
                                 <br />
@@ -29,7 +29,7 @@ function ClimateCrisis() {
 
 
                             </p>
-                            <p style={{ borderTop: '0.1rem solid #8B0000', marginTop: "5px", width: '80%', fontWeight: 'bold', fontSize: '1.25rem', lineHeight: '1.5rem', backgroundColor:"rgb(226, 225, 225)"  }}> <span style={{ color: '#8B0000', fontWeight: 'bold', fontSize: '1.25rem' }}>FULL-REPORT/</span> Ukraine <br />
+                            <p style={{ borderTop: '0.1rem solid #8B0000', marginTop: "5px", width: '80%', fontWeight: 'bold', fontSize: '1.25rem', lineHeight: '1.5rem', backgroundColor: "rgb(226, 225, 225)" }}> <span style={{ color: '#8B0000', fontWeight: 'bold', fontSize: '1.25rem' }}>FULL-REPORT/</span> Ukraine <br />
                                 has won the battle of Kharkiv,
                                 ‘long phase of war’
                                 <br />
@@ -37,7 +37,7 @@ function ClimateCrisis() {
 
 
                             </p>
-                            <p style={{ borderTop: '0.1rem solid #8B0000', marginTop: "5px", width: '80%', fontWeight: 'bold', fontSize: '1.25rem', lineHeight: '1.5rem', backgroundColor:"rgb(226, 225, 225)"  }}> <span style={{ color: '#8B0000', fontWeight: 'bold', fontSize: '1.25rem' }}>FULL-REPORT/</span> Ukraine <br />
+                            <p style={{ borderTop: '0.1rem solid #8B0000', marginTop: "5px", width: '80%', fontWeight: 'bold', fontSize: '1.25rem', lineHeight: '1.5rem', backgroundColor: "rgb(226, 225, 225)" }}> <span style={{ color: '#8B0000', fontWeight: 'bold', fontSize: '1.25rem' }}>FULL-REPORT/</span> Ukraine <br />
                                 has won the battle of Kharkiv,
                                 ‘long phase of war’
                                 <br />
@@ -48,11 +48,11 @@ function ClimateCrisis() {
                         </div>
 
                         <div className="col-md-2">
-                        <p>.</p>
+                            <p>.</p>
                             <p className='box2'>Advertisement</p>
                         </div>
 
-                      
+
                     </div>
                 </div>
 
@@ -190,7 +190,7 @@ function ClimateCrisis() {
                         <p
                             className='text-center share_stories'>
                             <svg width="25" height="16" viewBox="13 5 25 16" xmlns="http://www.w3.org/2000/svg"    >
-                                
+
 
                                 <path d="M25.5 5C32.05 5 38 12.33 38 12.33v1.34S32.03 21 25.5 21 13 13.67 13 13.67v-1.34S18.95 5 25.5 5z" fill="#FFFFFF" fill-rule="evenodd"></path>
                             </svg>
@@ -211,14 +211,14 @@ function ClimateCrisis() {
                     <div> <p className='text-end'>
                         <a href="" >
 
-                        <svg width="30" height="30" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg"> 
-            <g fill="none" fill-rule="evenodd"> 
-             <circle fill="#121212" cx="13" cy="13" r="13"></circle> 
-             <path d="M15.216 3.19c1.832.267 3.84 1.449 4.609 2.246v3.782h-.414l-4.195-5.584v-.443zm-1.389.237h-.059c-2.954 0-4.638 4.107-4.55 9.632-.088 5.496 1.596 9.573 4.55 9.573h.06v.443c-4.433.295-10.43-3.073-10.342-10.045-.088-6.944 5.91-10.312 10.341-10.016v.413zm7.387 10.46l-1.389.62v6.234c-.768.739-2.689 1.861-4.61 2.245V14.36l-1.388-.502v-.384h7.387v.413z" fill="#FFF"></path> 
-            </g> 
-           </svg>
-                           
-                            </a></p></div>
+                            <svg width="30" height="30" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+                                <g fill="none" fill-rule="evenodd">
+                                    <circle fill="#121212" cx="13" cy="13" r="13"></circle>
+                                    <path d="M15.216 3.19c1.832.267 3.84 1.449 4.609 2.246v3.782h-.414l-4.195-5.584v-.443zm-1.389.237h-.059c-2.954 0-4.638 4.107-4.55 9.632-.088 5.496 1.596 9.573 4.55 9.573h.06v.443c-4.433.295-10.43-3.073-10.342-10.045-.088-6.944 5.91-10.312 10.341-10.016v.413zm7.387 10.46l-1.389.62v6.234c-.768.739-2.689 1.861-4.61 2.245V14.36l-1.388-.502v-.384h7.387v.413z" fill="#FFF"></path>
+                                </g>
+                            </svg>
+
+                        </a></p></div>
 
                 </div>
 

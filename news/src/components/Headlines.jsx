@@ -12,7 +12,7 @@ import Image10 from '../images/fire.png';
 import Image11 from '../images/swim.png';
 
 import Sportlight from './Sportlight';
-import { Carousel } from 'react-bootstrap';
+
 
 
 class NewsArticles extends Component {

@@ -84,7 +84,7 @@ function Header() {
                         <ul className="pillars">
 
                             <li className="pillars__item">
-                                <a style={{borderTop:"4px solid pink"}}>
+                                <a style={{ borderTop: "4px solid pink" }}>
 
                                     News
 
