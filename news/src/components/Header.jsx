@@ -24,14 +24,10 @@ function Header() {
                     </span>
 
                     <div className='headitems gap-3' >
-
-                        <div className="anchortag commercial-items">
-
-
-                            |  <a href="/">Search jobs</a>
-
-                        </div>
-                        |
+                    <div className="anchortag commercial-items">
+                      |  <a href="/">Search jobs</a>
+                    </div>
+                                 |
                         <div className="anchortag commercial-items">
 
                             <  svg width="18" height="18" viewbox="0 0 18 18" className="top-bar__item__icon__svg inline-profile__svg inline-icon__svg" fill='white' >
@@ -84,7 +80,7 @@ function Header() {
                         <ul className="pillars">
 
                             <li className="pillars__item">
-                                <a style={{ borderTop: "4px solid pink" }}>
+                                <a   href="/" style={{ borderTop: "4px solid pink" }}>
 
                                     News
 
@@ -93,28 +89,28 @@ function Header() {
                             </li>
 
                             <li className="pillars__item1">
-                                <a >
+                                <a href="/Opinions">
 
                                     Opinion
                                 </a>
                             </li>
 
                             <li class="pillars__item">
-                                <a >
+                                <a href="/Sport">
 
                                     Sport
                                 </a>
                             </li>
 
                             <li class="pillars__item">
-                                <a >
+                                <a href="/Culture">
 
                                     Culture
                                 </a>
                             </li>
 
                             <li class="pillars__item">
-                                <a >
+                                <a href="/Lifestyle">
 
                                     Lifestyle
                                 </a>

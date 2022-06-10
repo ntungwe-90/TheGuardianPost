@@ -13,6 +13,10 @@ import WeeklyNews from './components/WeeklyNews';
 import TodayInFocus from './components/TodayInFocus';
 import InPictures from './components/InPictures';
 import Card from './components/Card';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import Opinions from './opinionComponent/Opinions'
+
 
 
 function App() {
@@ -32,7 +36,20 @@ function App() {
  <InPictures/>
 
  <Footer/>
-    </div>
+
+ 
+<>
+ {/* <Router>
+     
+        <Routes>
+          {/* <Route path="/" element= {Opinions} /> */}
+          {/* <Route path="/opinions" element= {Opinions} />
+          <Route ></Route>
+
+        </Routes>
+      </Router> */}
+      </> 
+      </div>
   );
 }
 
