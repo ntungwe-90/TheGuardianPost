@@ -5,15 +5,17 @@ import Image3 from '../images/signing.png';
 import Image4 from '../images/1.png';
 import Image5 from '../images/2.png';
 import Image6 from '../images/3.png';
-function Opinion() {
+
+
+export default function Opinion() {
     return (
-        <div className="container border mt-3">
+        <div className="container border mt-">
             <div className="row">
                 <div className='col-md-2 '>
                     <h2>OPINION</h2>
                 </div>
 
-                <div className="col-md-4">
+                <div className="col-md-4 mt-2">
                     <div className="">
                         <img src={Image1} className="pics" alt="girl" />
 
@@ -43,7 +45,7 @@ function Opinion() {
                 </div>
 
 
-                <div className='col-md-2 ' style={{ marginLeft: "8rem" }}>
+                <div className='col-md-2 mt-2' style={{ marginLeft: "8rem" }}>
                     <img src={Image2} style={{ width: '250px', marginLeft: "-4rem" }} alt="post" />
                     <p style={{ width: '250px', fontWeight: 'bold', fontSize: '1.25rem', lineHeight: '1.5rem', backgroundColor: 'rgb(226, 225, 225)', marginLeft: "-4rem" }}> <span style={{ color: '#8B0000', fontWeight: 'bold', fontSize: '1.25rem' }}>Managing anxiety/</span> I <br />
                         <p className='card-text text-container'>
@@ -71,7 +73,7 @@ function Opinion() {
 
                 </div>
 
-                <div className="div col-md-2">
+                <div className="div col-md-2 mt-2">
 
                     <div className='col-md-2' >
                         <img src={Image3} style={{ width: '250px', marginLeft: "-1rem" }} alt="post" />
@@ -115,11 +117,11 @@ function Opinion() {
 
 
                     <div className="col-md-5 mt-3 " >
-                        <div class="card-body d-flex  align-items-center  margin_type gap-3 " >
+                        <div className="card-body d-flex  align-items-center  margin_type gap-3 " >
 
                             <img src={Image4} height="100px" width="300px" alt="..." className='mts ' />
 
-                            <p class=" mt0  opinion_text">Struggling to pay at the Suppermarket untill i felt that childhood shame flooding back.
+                            <p className=" mt0  opinion_text">Struggling to pay at the Suppermarket untill i felt that childhood shame flooding back.
                                 <h4 className='text-title text-danger font-weight-bold'>Kerry Hudson</h4>
 
                             </p>
@@ -139,10 +141,10 @@ function Opinion() {
                             </div>
                             <hr className='lines'></hr> <hr className='lines'></hr> < hr className='lines'></hr>
 
-                            <div class="card-body d-flex  align-items-center mt-3 margin_type gap-2 " >
+                            <div className="card-body d-flex  align-items-center mt-3 margin_type gap-2 " >
                                 <img src={Image6} height="100px" width="300px" alt="..." className='mts' />
 
-                                <p class="card-text opinion_text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                                <p className="card-text opinion_text">This is a wider card with supporting text below as a natural lead-in to additional content.
                                     <h4 className='text-title text-danger'>Kerry Hudson</h4>
                                 </p>
 
@@ -179,4 +181,3 @@ function Opinion() {
     );
 }
 
-export default Opinion;

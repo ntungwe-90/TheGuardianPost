@@ -1,18 +1,17 @@
 import React from 'react';
 import Image1 from '../images/usa.png';
 import Image2 from '../images/forest.png';
-import Image3 from '../images/signing.png';
 import Image4 from '../images/couples.png';
 import Image5 from '../images/w1.png';
 import Image6 from '../images/w2.png';
 import Image7 from '../images/w3.png';
 
-function Culture() {
+export default function Culture() {
     return (
-        <div className="container border mt-3">
+        <div className="container border mt">
             <div className="row">
                 <div className='col-md-2 '>
-                    <p>CULTURE</p>
+                    <h3>CULTURE</h3>
                 </div>
 
                 <div className="col-md-4">
@@ -20,7 +19,7 @@ function Culture() {
                         <img src={Image1} className="pics" alt="girl" />
 
                         <div className=" text-height ">
-                            <p className='text'> <a href=""><span>"The Queen is gone round the bend"/</span>  HM in pop, from Slowthai to the Smiths      to Blur</a>
+                            <p className='text'> <a href="/page"><span>"The Queen is gone round the bend"/</span>  HM in pop, from Slowthai to the Smiths      to Blur</a>
 
 
                                 <small style={{ marginLeft: '20rem', marginTop: "-5px" }}><svg xmlns="http://www.w3.org/2000/svg" width="25" height="30" fill="grey" class="bi bi-chat-left-fill" viewBox="0 0 16 16">
@@ -105,19 +104,19 @@ function Culture() {
 
 
                     <div className="col-md-5 mt-0 " >
-                        <div class="card-body d-flex  align-items-center  culture_highlights gap-2"  >
+                        <div className="card-body d-flex  align-items-center  culture_highlights gap-2"  >
                             <img src={Image5} alt="..." className='mts pictures' />
 
-                            <p class=" opinion_text mb-1 font-weight-bold"><span className='span_texts'>The reader interview/</span>Post your
+                            <p className=" opinion_text mb-1 font-weight-bold"><span className='span_texts'>The reader interview/</span>Post your
                                 question for fleetwood mac's Christine Mcvie
 
                             </p>
 
                         </div>
-                        <div class="card-body d-flex  align-items-center culture_highlights gap-2" >
+                        <div className="card-body d-flex  align-items-center culture_highlights gap-2" >
                             <img src={Image6} alt="..." className='mts pictures' />
 
-                            <p class=" opinion_text mb-1 font-weight-bold"><span className='span_texts'> I could not stop/</span>
+                            <p className=" opinion_text mb-1 font-weight-bold"><span className='span_texts'> I could not stop/</span>
                                 L Morgan Lee on making Broadway history
 
                             </p>
@@ -125,10 +124,10 @@ function Culture() {
                         </div>
 
 
-                        <div class="card-body d-flex  align-items-center culture_highlights gap-2" >
+                        <div className="card-body d-flex  align-items-center culture_highlights gap-2" >
                             <img src={Image7} alt="..." className='mts pictures' />
                             <div className='all_text'>
-                                <p class=" opinion_text mb-1 font-weight-bold"><span className='span_texts'>The reader interview/</span>
+                                <p className=" opinion_text mb-1 font-weight-bold"><span className='span_texts'>The reader interview/</span>
                                     post your questions for Glenda Jackson
                                 </p>
                             </div>
@@ -137,7 +136,7 @@ function Culture() {
 
 
 
-                        <button className='btn btn-dark btn_black '> <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                        <button className='btn btn-dark btn_black '> <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" className="bi bi-plus" viewBox="0 0 16 16">
                             <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                         </svg>More Culture
 
@@ -174,4 +173,3 @@ function Culture() {
     );
 }
 
-export default Culture;

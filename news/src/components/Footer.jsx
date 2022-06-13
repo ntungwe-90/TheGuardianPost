@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Footer() {
+export default function Footer() {
     return (
         <div className="footer_body" style={{ backgroundColor: "#052962", color: "#ffff" }}>
             <div className="footer_nav ms-5">
@@ -14,7 +14,7 @@ function Footer() {
 
 
 
-            <table class="table table-bordered" style={{ color: "white" }}>
+            <table className="table table-bordered" style={{ color: "white" }}>
                 <thead>
                     <tr>
 
@@ -68,6 +68,18 @@ function Footer() {
                                     <div className='btn-group'>
                                         <button className='butt'> Contribute-</button>
                                         <button className='butt'> Subscribe-</button>
+
+                                        <div className="text-muted py-5">
+                                            <div className="container">
+                                                <p className="float-end mb-1">
+                                                    <a className='scroll_up' href="/">Back to top</a>
+
+                                                </p>
+
+
+                                                {/* <a href="/docs/5.2/getting-started/introduction/"></a> */}
+                                            </div>
+                                        </div>
                                     </div>
 
                                 </span></div>
@@ -78,8 +90,9 @@ function Footer() {
                     </tr>
 
                 </thead>
+
                 <tbody>
-                    <div class="really-serious-copyright">
+                    <div className="really-serious-copyright">
 
                         © 2022 Guardian News &amp; Media Limited or its affiliated companies. All rights reserved.
 
@@ -95,6 +108,6 @@ function Footer() {
     )
 }
 
-export default Footer;
+
 
 

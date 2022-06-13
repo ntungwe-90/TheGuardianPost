@@ -11,7 +11,7 @@ import Image9 from '../images/mrs.png';
 import ClimateCrisis from './ClimateCrisis';
 
 
-function Sports() {
+export default function Sports() {
     return (
         <div className='container border cards_row'>
             <div className='row '>
@@ -76,7 +76,7 @@ function Sports() {
                     <div class="card-body d-flex  align-items-center sport_highlights gap-2"  >
                         <img src={Image1} alt="..." className='mts pictures' />
 
-                        <p class=" opinion_text mb-1 font-weight-bold"><span className='spots'>French Open/</span>Swiatek survives scare from Zheng to maintain run
+                        <p className=" opinion_text mb-1 font-weight-bold"><span className='spots'>French Open/</span>Swiatek survives scare from Zheng to maintain run
 
                         </p>
 
@@ -202,4 +202,3 @@ function Sports() {
     );
 }
 
-export default Sports

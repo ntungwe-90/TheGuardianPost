@@ -4,7 +4,7 @@ import Image1 from '../images/flag1.png';
 import Image3 from '../images/flag2.png';
 import Image4 from '../images/flag4.png';
 
-function TakePart() {
+export default function TakePart() {
     return (
         <div className="container border ">
             <div className="row">
@@ -79,4 +79,3 @@ function TakePart() {
     );
 }
 
-export default TakePart;

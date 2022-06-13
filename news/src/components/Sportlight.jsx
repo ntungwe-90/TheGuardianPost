@@ -5,12 +5,10 @@ import Image4 from '../images/map4.png';
 import Image5 from '../images/dine.png';
 import Image7 from '../images/love.png';
 import Image8 from '../images/blackg.png';
-import Image9 from '../images/mrs.png';
-import ClimateCrisis from './ClimateCrisis';
 import Image1 from '../images/map.png'
 
 
-function Sportlight() {
+export default function Sportlight() {
     return (
 
         <div className='container border cards_row'>
@@ -18,7 +16,7 @@ function Sportlight() {
                 <div className='col-md-2 '>
                     <h2>SportLights</h2>
                 </div>
-                <div className='col-md-2' >
+                <div className='col-md-2 sportlight_cards' >
                     <p style={{ width: '250px', fontWeight: 'bold', height: '320px', fontSize: '1.25rem', lineHeight: '1.5rem', backgroundColor: 'rgb(226, 225, 225)', marginLeft: ".0333rem" }}>
                         <p className='card-text text-container'>
                             <span className='span_texts'>Love island returns/</span>
@@ -81,38 +79,38 @@ function Sportlight() {
 
 
                 <div className="col-md-5 mt-0 " >
-                    <div class="card-body d-flex  align-items-center sport_highlights gap-2" style={{ borderTop: '1px solid red' }} >
+                    <div className="card-body d-flex  align-items-center sport_highlights gap-2" style={{ borderTop: '1px solid red' }} >
                         <img src={Image1} alt="..." className='mts pictures' />
 
-                        <p class=" opinion_text mb-1 font-weight-bold text-danger"><span className='spots text-danger'>French Open/</span>Swiatek survives scare from Zheng to maintain run
+                        <p className=" opinion_text mb-1 font-weight-bold text-danger"><span className='spots text-danger'>French Open/</span>Swiatek survives scare from Zheng to maintain run
 
                         </p>
 
                     </div>
-                    <div class="card-body d-flex  align-items-center sport_highlights gap-2" style={{ borderTop: '1px solid red' }}>
+                    <div className="card-body d-flex  align-items-center sport_highlights gap-2" style={{ borderTop: '1px solid red' }}>
                         <img src={Image2} alt="..." className='mts pictures' />
 
-                        <p class=" opinion_text mb-1 font-weight-bold" style={{ color: "#7c1c64", }}><span className='spantext'> Jeff Gladney/</span>Arizona Cardinals cornerback dies in car crash at age of 25
+                        <p className=" opinion_text mb-1 font-weight-bold" style={{ color: "#7c1c64", }}><span className='spantext'> Jeff Gladney/</span>Arizona Cardinals cornerback dies in car crash at age of 25
 
                         </p>
 
                     </div>
 
 
-                    <div class="card-body d-flex  align-items-center sport_highlights gap-2" >
+                    <div className="card-body d-flex  align-items-center sport_highlights gap-2" >
                         <img src={Image3} alt="..." className='mts pictures' />
 
-                        <p class=" opinion_text mb-1 font-weight-bold"><span className='spots'>Lashings of rain, chemical loos and lofty goals/</span>
+                        <p className=" opinion_text mb-1 font-weight-bold"><span className='spots'>Lashings of rain, chemical loos and lofty goals/</span>
                             Murray lifts off in surbiton
                         </p>
 
                     </div>
 
 
-                    <div class="card-body d-flex  align-items-center culture_highlights gap-2 mb-0" >
+                    <div className="card-body d-flex  align-items-center culture_highlights gap-2 mb-0" >
                         <img src={Image4} alt="..." className='mts pictures' />
 
-                        <p class=" opinion_text mb-1 font-weight-bold" style={{ color: '#6b5840' }}><span className='span_texts'>Football/</span> Boehly vows to bring success following Chelsea takeover
+                        <p className=" opinion_text mb-1 font-weight-bold" style={{ color: '#6b5840' }}><span className='span_texts'>Football/</span> Boehly vows to bring success following Chelsea takeover
 
                         </p>
 
@@ -127,7 +125,7 @@ function Sportlight() {
                 </div>
                 <div className='col-md-2' >
                     <img src={Image8} style={{ width: '228px', marginLeft: "-.5rem" }} alt="post" />
-                    <p style={{ width: '228px', fontWeight: 'bold', height: 313, fontSize: '1.25rem', lineHeight: '1.5rem', backgroundColor: 'rgb(226, 225, 225)', marginLeft: "-.5rem" }}>
+                    <p style={{ width: '228px', fontWeight: 'bold', height: 313, fontSize: '1.25rem', lineHeight: '1.5rem', backgroundColor: 'rgb(250, 248, 248)', marginLeft: "-.5rem" }}>
                         <p className='card-text text-container'>
                             <span className='span_texts'> Wunmi Mosak/</span>
                             'I'M Black in America. My feeling about the police is...
@@ -139,9 +137,9 @@ function Sportlight() {
                             her a 'bumbling fool'
 
                         </span>
-                        <small style={{ marginLeft: '10rem', marginTop: "25px" }}><svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="grey" class="bi bi-chat-left-fill" viewBox="0 0 16 16">
+                        <small style={{ marginLeft: '10rem', marginTop: "25px" }}><svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="lightgrey" className="bi bi-chat-left-fill" viewBox="0 0 16 16">
                             <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
-                        </svg><span style={{ color: 'grey' }}>9</span></small>
+                        </svg><small style={{ color: 'grey' }}>9</small></small>
 
                     </p>
 
@@ -151,7 +149,7 @@ function Sportlight() {
 
                 <div className='col-md-2' >
                     <img src={Image5} style={{ width: '228px', marginLeft: "1rem" }} alt="post" />
-                    <p style={{ width: '228px', fontWeight: 'bold', height: 313, fontSize: '1.25rem', lineHeight: '1.5rem', backgroundColor: 'rgb(226, 225, 225)', marginLeft: "1rem" }}>
+                    <p style={{ width: '228px', fontWeight: 'bold', height: 313, fontSize: '1.25rem', lineHeight: '1.5rem', backgroundColor: 'rgb(250, 248, 248)', marginLeft: "1rem" }}>
                         <p className='card-text text-container text-danger'>
                             <span className='span_texts text-danger'> 'A Certain stigma'/</span>
                             Spain's hospitality sector hit by waiter shortage
@@ -184,5 +182,3 @@ function Sportlight() {
 
     );
 }
-
-export default Sportlight;

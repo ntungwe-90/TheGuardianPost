@@ -6,7 +6,7 @@ import Image5 from '../images/girls.png';
 import Image6 from '../images/food3.png';
 import Image7 from '../images/bb.png';
 
-function LifeStyle() {
+export default function LifeStyle() {
     return (
         <div className="container border mt-3">
             <div className="row">
@@ -92,19 +92,19 @@ function LifeStyle() {
 
 
                     <div className="col-md-5 mt-0 " >
-                        <div class="card-body d-flex  align-items-center  lifestyle_highlights gap-2"  >
+                        <div className="card-body d-flex  align-items-center  lifestyle_highlights gap-2"  >
                             <img src={Image5} alt="..." className='mts pictures' />
 
-                            <p class="  mb-1 font-weight-bold"><span className='text3 span_texts3'>Meet the Heartstopper generation/</span>'Young, gay
+                            <p className="  mb-1 font-weight-bold"><span className='text3 span_texts3'>Meet the Heartstopper generation/</span>'Young, gay
                                 people being out and happy? It's revolutionary!''
 
                             </p>
 
                         </div>
-                        <div class="card-body d-flex  align-items-center lifestyle_highlights gap-2" >
+                        <div className="card-body d-flex  align-items-center lifestyle_highlights gap-2" >
                             <img src={Image6} alt="..." className='mts pictures' />
 
-                            <p class="  mb-1 font-weight-bold"><span className='text3 span_texts3'>Food/</span>
+                            <p className="  mb-1 font-weight-bold"><span className='text3 span_texts3'>Food/</span>
                                 Nigel Slater's recipe for grilled chicken and curry sauce
 
                             </p>
@@ -112,10 +112,10 @@ function LifeStyle() {
                         </div>
 
 
-                        <div class="card-body d-flex  align-items-center lifestyle_highlights gap-2" >
+                        <div className="card-body d-flex  align-items-center lifestyle_highlights gap-2" >
                             <img src={Image7} alt="..." className='mts pictures' />
                             <div className='all_text'>
-                                <p class="mb-1 font-weight-bold"><span className=' text3 span_texts3'>Sexual healing/</span>
+                                <p className="mb-1 font-weight-bold"><span className=' text3 span_texts3'>Sexual healing/</span>
                                     I am facinated by BDSM don't enjoy sex-could i be asexual?
                                 </p>
                             </div>
@@ -124,7 +124,7 @@ function LifeStyle() {
 
 
 
-                        <button className='btn btn-dark btn_black '> <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                        <button className='btn btn-dark btn_black '> <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" className="bi bi-plus" viewBox="0 0 16 16">
                             <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                         </svg>More LifeStyle
 
@@ -161,4 +161,3 @@ function LifeStyle() {
     );
 }
 
-export default LifeStyle;

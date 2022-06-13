@@ -2,7 +2,7 @@ import React from 'react';
 import Image1 from "../images/liza.png"
 import Image2 from "../images/amber.jpeg"
 
-function video() {
+export default function video() {
     return (
 
        <div className="container-fluid">
@@ -28,4 +28,3 @@ function video() {
     );
 }
 
-export default video;

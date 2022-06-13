@@ -2,8 +2,11 @@ import React from 'react';
 import Image1 from '../images/build.png';
 import Image2 from '../images/bgirl.png';
 import Image3 from '../images/field.png';
-import Image6 from '../images/mbappe.png';
-function ClimateCrisis() {
+
+
+
+
+export default function ClimateCrisis() {
     return (
         <div className='container border mt-'>
             <div className='row'>
@@ -177,14 +180,14 @@ function ClimateCrisis() {
                     </div>
                 </div>
 
-                <button className='btn btn-dark btn_black2 mt-2 mb-4'> <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                <button className='btn btn-dark btn_black2 mt-2 mb-4'> <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" className="bi bi-plus" viewBox="0 0 16 16">
                     <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                 </svg>More Around the world
 
                 </button>
 
                 <div className='d-flex justify-contenet-around align-items-center news_header'>
-                    <div> <p className='text-left tip_link'><a href="">Tip us off</a></p></div>
+                    <div> <p className='text-left tip_link'><a href="/page">Tip us off</a></p></div>
                     <div>
 
                         <p
@@ -198,9 +201,9 @@ function ClimateCrisis() {
 
                                 <path d="M25.5 5C32.05 5 38 12.33 38 12.33v1.34S32.03 21 25.5 21 13 13.67 13 13.67v-1.34S18.95 5 25.5 5z" fill="#FFFFFF" fill-rule="evenodd"></path>
                             </svg>
-                            <a href="">Share stories with the Guardian securely an confidently</a>
+                            <a href="/page">Share stories with the Guardian securely an confidently</a>
 
-                            <a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" Color="#fff" class="bi bi-arrow-right-circle icon" viewBox="0 0 16 16">
+                            <a href="/page"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" color="#fff" class="bi bi-arrow-right-circle icon" viewBox="0 0 16 16">
 
                                 <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
                             </svg></a>
@@ -209,7 +212,7 @@ function ClimateCrisis() {
 
                     </div>
                     <div> <p className='text-end'>
-                        <a href="" >
+                        <a href="/page" >
 
                             <svg width="30" height="30" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
                                 <g fill="none" fill-rule="evenodd">
@@ -240,4 +243,3 @@ function ClimateCrisis() {
     );
 }
 
-export default ClimateCrisis;

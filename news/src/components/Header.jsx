@@ -1,13 +1,7 @@
-
-
-
-
-
-
 //  <----------------------   NAVBAR START          ---------------->
+import React from 'react'
 
-
-function Header() {
+export default function Header() {
 
     return (
         <div>
@@ -75,70 +69,70 @@ function Header() {
 
 
                 <section className='container border'>
-                    <nav className="new-header">
+                    <nav className="new-header nav-item">
 
                         <ul className="pillars">
 
-                            <li className="pillars__item">
-                                <a   href="/" style={{ borderTop: "4px solid pink" }}>
+                            <li className="pillars__item active links">
+                                <a   href="/" style={{ borderTop: "4px solid pink" }}> <span className="sr-only"></span> News  </a> </li>
 
-                                    News
+                                   
 
-                                </a>
+                               
 
-                            </li>
+                           
 
-                            <li className="pillars__item1">
-                                <a href="/Opinions">
+                            <li className="pillars__item1 nav-item links">
+                                <a href="/opinionComponent/Opinions">
 
                                     Opinion
                                 </a>
                             </li>
 
-                            <li class="pillars__item">
+                            <li className="pillars__item ">
                                 <a href="/Sport">
 
                                     Sport
                                 </a>
                             </li>
 
-                            <li class="pillars__item">
+                            <li className="pillars__item">
                                 <a href="/Culture">
 
                                     Culture
                                 </a>
                             </li>
 
-                            <li class="pillars__item">
+                            <li className="pillars__item">
                                 <a href="/Lifestyle">
 
                                     Lifestyle
                                 </a>
                             </li>
 
-                            <li class="nav-item dropdown" >
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
+                            <li className="nav-item dropdown" >
+                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
                                     <span style={{ color: "#fff" }}>More</span>
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                                <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+                                    <a className="dropdown-item" href="#">Action</a>
+                                    <a className="dropdown-item" href="#">Another action</a>
+                                    <a className="dropdown-item" href="#">Something else here</a>
                                 </div>
                             </li>
 
                         </ul>
                     </nav>
 
-
-
+                   
                 </section>
             </header>
-
+           
 
         </div>
+
+        
     );
 }
 
 
-export default Header;

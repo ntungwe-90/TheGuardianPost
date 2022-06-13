@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Image1 from '../images/firewood.png';
 import Image2 from '../images/head.png';
 import Image3 from '../images/house.png';
@@ -12,11 +12,19 @@ import Image10 from '../images/fire.png';
 import Image11 from '../images/swim.png';
 
 import Sportlight from './Sportlight';
+import Sports from './Sports';
+import Opinion from './Opinion';
+import Culture from './Culture';
+import LifeStyle from './LifeStyle';
+import Explore from './Explore';
+import TakePart from './TakePart';
+import TodayInFocus from './TodayInFocus';
+import InPictures from './InPictures';
 
 
 
-class NewsArticles extends Component {
-    render() {
+export default function NewsArticles()  {
+    
         return (
 
             // FIRST LINK SECTION OF NEWS ARTICLES
@@ -26,16 +34,14 @@ class NewsArticles extends Component {
                     <div className='container border'>
                         <div>
                             <ul className='anchortags mt-3'>
-                                <li> <a className='refs' href='/'>World</a></li>
-                                <li> <a className='refs' href='/'>UK</a></li>
-                                <li> <a className='refs' href='/'>Coronavirus</a></li>
-                                <li> <a className='refs' href='/'>Climate crisis</a></li>
-                                <li><a className='refs' href='/'>Environtment</a></li>
-                                <li><a className='refs' href='/'>Science</a></li>
-                                <li> <a className='refs' href='/'>Global development</a></li>
-                                <li><a className='refs' href='/'>Footbal</a></li>
-                                <li><a className='refs' href='/'>Tech</a></li>
-                                <li><a className='refs' href='/'>Business</a></li>
+                                <li> <a className='refs' href='/#'>World</a></li>
+                                <li> <a className='refs' href='/#'>UK</a></li>
+                                <li> <a className='refs' href='/#'>Environtment</a></li>
+                                <li><a className='refs' href='/#'>Science</a></li>
+                                <li> <a className='refs' href='/#'>Global development</a></li>
+                                <li><a className='refs' href='/#'>Footbal</a></li>
+                                <li><a className='refs' href='/#'>Tech</a></li>
+                                <li><a className='refs' href='/#'>Business</a></li>
 
 
 
@@ -50,6 +56,8 @@ class NewsArticles extends Component {
                         <div className='lines mb-5 bt-0 bb-0' >
                             <hr className='lines'></hr> <hr className='lines'></hr> < hr className='lines'></hr>
                         </div>
+
+                       {/* <h2>start dividing here</h2> */}
 
 
 
@@ -75,16 +83,16 @@ class NewsArticles extends Component {
                                 <br />
 
 
-                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item ">
-                                            <img src={Image9} class="d-block w-100 " alt="sel" />
+                                <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+                                    <div className="carousel-inner">
+                                        <div className="carousel-item ">
+                                            <img src={Image9} className="d-block w-100 " alt="sel" />
                                         </div>
-                                        <div class="carousel-item active">
-                                            <img src={Image2} class="d-block w-100 h-100vh" alt="sel" />
+                                        <div className="carousel-item active">
+                                            <img src={Image2} className="d-block w-100 h-100vh" alt="sel" />
                                         </div>
-                                        <div class="carousel-item ">
-                                            <img src={Image3} class="d-block w-100" alt="cel" />
+                                        <div className="carousel-item ">
+                                            <img src={Image3} className="d-block w-100" alt="cel" />
                                         </div>
                                     </div>
                                 </div>
@@ -404,12 +412,19 @@ class NewsArticles extends Component {
 
                 </section>
 
-                <Sportlight />
+                 <Sportlight />
+                <Opinion/>
+                <Sports/>
+                <Culture/>
+                <LifeStyle/>
+                <Explore/>
+                <TakePart/>
+                <TodayInFocus/>
+                <InPictures/> 
 
             </div>
 
         );
     }
-}
 
-export default NewsArticles;
+

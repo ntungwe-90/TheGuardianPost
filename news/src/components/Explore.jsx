@@ -6,9 +6,9 @@ import Image5 from '../images/kimono.png';
 import Image6 from '../images/explore.png';
 import Image7 from '../images/group.png';
 
-function Explore() {
+export default function Explore() {
     return (
-        <div className="container border mt-3">
+        <div className="container border mt-">
             <div className="row">
                 <div className='col-md-2 '>
                     <h3>Explore</h3>
@@ -19,7 +19,7 @@ function Explore() {
                         <img src={Image1} className="pics" alt="girl" />
 
                         <div className=" text-height ">
-                            <p className='text text-danger'> <a href="" className='text-danger'><span className='text-danger'>'We spark curiosity'/</span> How the psychedelics industry is taking on Davos</a>
+                            <p className='text text-danger'> <a href="/page" className='text-danger'><span className='text-danger'>'We spark curiosity'/</span> How the psychedelics industry is taking on Davos</a>
 
 
 
@@ -98,19 +98,19 @@ function Explore() {
 
 
                     <div className="col-md-5 mt-0 " >
-                        <div class="card-body d-flex  align-items-center  culture_highlights gap-2"  >
+                        <div className="card-body d-flex  align-items-center  culture_highlights gap-2"  >
                             <img src={Image5} alt="..." className='mts pictures' />
 
-                            <p class=" opinion_text mb-1 font-weight-bold"><span className='span_texts text-danger'>Stalked by hunger but fighting obesity/</span>Kenya's
+                            <p className=" opinion_text mb-1 font-weight-bold"><span className='span_texts text-danger'>Stalked by hunger but fighting obesity/</span>Kenya's
                                 hidden food crisis
 
                             </p>
 
                         </div>
-                        <div class="card-body d-flex  align-items-center culture_highlights gap-2" >
+                        <div className="card-body d-flex  align-items-center culture_highlights gap-2" >
                             <img src={Image6} alt="..." className='mts pictures' />
 
-                            <p class=" opinion_text mb-1 font-weight-bold"><span className='span_texts text-danger'> Animals/</span>
+                            <p className=" opinion_text mb-1 font-weight-bold"><span className='span_texts text-danger'> Animals/</span>
                                 She experimented on primates for decades. Now she wants to
                                 shut down the labs
 
@@ -119,10 +119,10 @@ function Explore() {
                         </div>
 
 
-                        <div class="card-body d-flex  align-items-center culture_highlights gap-2" >
+                        <div className="card-body d-flex  align-items-center culture_highlights gap-2" >
                             <img src={Image7} alt="..." className='mts pictures' />
                             <div className='all_text'>
-                                <p class=" opinion_text mb-1 font-weight-bold"><span className='span_texts text-danger'>Covid/</span>
+                                <p className=" opinion_text mb-1 font-weight-bold"><span className='span_texts text-danger'>Covid/</span>
                                     With UK cases at their lowest for a year, what could the future look like?
                                 </p>
                             </div>
@@ -167,4 +167,3 @@ function Explore() {
     );
 }
 
-export default Explore;

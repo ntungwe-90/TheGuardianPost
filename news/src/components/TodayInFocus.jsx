@@ -4,7 +4,7 @@ import Image2 from "../images/listen.png"
 import Video from "../components/Video"
 
 
-function TodayInFocus() {
+export default function TodayInFocus() {
     return (
         <div className="container border ">
             <div className="row">
@@ -59,4 +59,3 @@ function TodayInFocus() {
     );
 }
 
-export default TodayInFocus;
